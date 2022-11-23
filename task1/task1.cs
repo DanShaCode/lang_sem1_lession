@@ -13,5 +13,12 @@ result = age  * 10;
 Console.WriteLine(result);
 
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(num);
+Console.WriteLine($"Это число {num + 1000}");
+
+if(num > age) // УСЛОВИЕ без точки с запятой
+{
+    Console.WriteLine($"{num} > {age}"); //ТЕЛО цикла
+}
+
+
 
